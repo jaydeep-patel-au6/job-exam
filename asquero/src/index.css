@@ -75,3 +75,45 @@ input[type=text] {
   background: blue;
 }
 
+/* products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 0 1 20rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.title-2 {
+  margin: 4rem 0 2rem 0;
+}
+
+.p-title {
+  margin: 0.5rem;
+}
+
+.box-2:hover {
+  background-color: yellow;
+}
+
+.copyright {
+  color: gray;
+}
+
+.img-2:hover .overlay {
+  opacity: 0.1;
+}
