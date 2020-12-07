@@ -5,3 +5,12 @@ $(document).ready(function () {
         $(this).removeClass('shadow-lg');
     });
 });
+
+$(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 700) {
+      $('.searchTitle').fadeIn();
+    } else {
+      $('.searchTitle').fadeOut();
+    }
+  });
